@@ -6,11 +6,7 @@ var webpackDevConfig = {
         devtool: 'eval',
         debug: true,
         entry: {
-            app: [
-                'webpack-dev-server/client?http://192.168.30.25:8080',
-                'webpack/hot/dev-server',
-                './src/app/index.js'
-            ]
+            app: ['./src/app/index.js']
         }
     },
 
